@@ -287,6 +287,10 @@ body
 	background: url("../img/mattprofile.jpg") no-repeat center center;
 	background-size: cover; 
 }
+
+.profile .columns {
+	float: none !important;
+}
   
 @media only screen and (min-width: 40.063em) {
 	.hero .tech-img,
@@ -416,8 +420,8 @@ body
 
 .features {
 	text-align: center; 
-	margin: 10rem 0;
-	padding-left: 5rem;
+	margin: 10rem auto;
+	
 }
 
 .features hr {
